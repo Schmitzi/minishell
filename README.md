@@ -1,6 +1,6 @@
-Minishell
-Overview
-
+# Minishell<br>
+## Overview<br>
+<br>
 Minishell is a project developed as part of the 42 School curriculum. The goal of this project is to create a simple shell that mimics the behavior of a Unix-like command-line interface. The project is designed to deepen understanding of process management, signal handling, and the intricacies of the shell environment.
 Features
 
@@ -11,19 +11,19 @@ Features
     Custom Built-ins: Includes built-in commands like cd, export, unset, env, exit, etc.
     Error Handling: Provides basic error handling and messaging for invalid commands or syntaxes.
 
-Usage
+## Usage
 
 Compile the project using the provided Makefile:
 
-bash
-
+```bash
 make
+```
 
 Start the shell by running:
 
-bash
-
+```bash
 ./minishell
+```
 
 You can then use the shell like a regular terminal to execute commands, manage files, and more.
 Requirements
